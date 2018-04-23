@@ -1,3 +1,5 @@
+#coding: utf-8
+
 number = 23
 guess = int(input('Digite um número inteiro: '))
 
@@ -12,4 +14,4 @@ elif guess < number:
 else:
     print('Não, o numero era um pouco menor que isso') #você deve advinhar > numero a alcançar aqui.
     print('feito')
-#esta última instrução é sempre executada, depois da instrução if executada.
+    #esta última instrução é sempre executada, depois da instrução if executada.
